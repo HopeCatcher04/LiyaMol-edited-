@@ -1,15 +1,15 @@
 {
-    "name": "SAIDALI",
-    "description": "pinky bot - re-edited from asena. World’s first UserBot made for WhatsApp.",
-    "logo": "https://avatars.githubusercontent.com/u/83832372?v=4",
-    "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/afnanplk/lastpink",
+    "name": "Elaina-Chan",
+    "description": "Elaina-Chan, re-edit by Hope.",
+    "logo": "https://i.pinimg.com/originals/ff/03/89/ff03896109c90f0949b67ff38092c2af.jpg",
+    "keywords": ["whatsapp", "userbot", "AnimeBot", "Elaina-Chan", "bot", "api", "ai"],
+    "repository": "https://github.com/HopeCatcher04/LiyaMol-edited-",
     "website":   "under maintenance",
     "success_url": "under maintenance",
     "stack": "container",
     "env": {
-        "ASENA_SESSION": {
-            "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Asena Session.",
+        "MAJO_SESSION": {
+            "description": "Type your majo session.",
             "required": true
         },
         "SUDO": {
@@ -87,9 +87,9 @@
             "value": "true"
         },
          "BOT_NAME": {
-            "description": "heading for .list command reply",
+            "description": "heading for !list command reply",
             "required": false,
-            "value": "•━━━━╼⤏```ʟɪͥʏͭᴀᷤᴍᷟᴏͤʟ```⤎╾━━━•"
+            "value": "Elaina-Chan"
         },
         "HEROKU_API_KEY": {
             "description": "Herokuda API Keyiniz. Heroku API Key.",
@@ -108,7 +108,7 @@
         "TAG_HEADER": {
             "description": "Heading when taging all",
             "required": false,
-            "value": "hear me friends"
+            "value": "Atention!"
         },
         "UNMUTE_MESSAGE": {
             "description": "Düzenlenebilir Unmute Mesajı. Customizable Unmute Message! Use => default, to change back.",
@@ -128,10 +128,10 @@
         "WORK_TYPE": {
             "description": "WhatsAsena Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
             "required": true,
-            "value": "private"
+            "value": "public"
         },
         "HEROKU_APP_NAME": {
-            "description": "Herokuda uygulama adı. Heroku APP Name.",
+            "description": "Type your Heroku APP Name.",
             "required": true
         },
         "DEBUG": {
@@ -140,13 +140,13 @@
             "value": "false"
         },
         "REMOVE_BG_API_KEY": {
-            "description": "Fotoğrafların arkaplanını kaldırır. https://remove.bg",
+            "description": "You can get bg api from https://remove.bg",
             "required": false
         },
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "i am alive  \n\n ```coded by ꜱͥᴀͭɪᴅᷤᴀᷟʟͤɪ```"
+            "value": "I'm still alive B-Baka! >///<  \n\n Elaina-Chan"
         },
         "BAN_MESSAGE": {
             "description": "Customizable kick Message! Use => default, to change back.",
